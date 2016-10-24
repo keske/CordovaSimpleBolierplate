@@ -14,7 +14,11 @@ Create cordova project
 
 Clone boilerplate:
 
-`$ git clone https://github.com/keske/CordovaSimpleBolierplate.git .`
+`$ git init`
+
+`$ git remote add -t \* -f origin https://github.com/keske/CordovaSimpleBolierplate.git`
+
+`$ git checkout master`
 
 Init application:
 
