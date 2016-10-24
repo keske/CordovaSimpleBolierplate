@@ -12,7 +12,7 @@ rm -rf production/platforms/ios/www/js
 rm -rf production/platforms/ios/www/img
 
 echo "Replace cordova's index.html file"
-mv development/static/index.html production/platforms/ios/www 
+cp development/static/index.html production/platforms/ios/www 
 
 echo "Install node modules"
 npm install
