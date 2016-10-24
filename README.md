@@ -14,7 +14,7 @@ Create cordova project
 
 Clone boilerplate:
 
-`$ git clone https://github.com/keske/react-parallax-component.git .`
+`$ git clone https://github.com/keske/CordovaSimpleBolierplate.git .`
 
 Init application:
 
