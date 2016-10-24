@@ -1,0 +1,78 @@
+{
+  "name": "Application",
+  "version": "0.0.1",
+  "description": "Application",
+  "engines": {
+    "node": ">=5.0"
+  },
+  "scripts": {
+    "start": "rimraf production/platforms/ios/www/dist && NODE_ENV=development node development/bin/server.js",
+    "build": "rimraf production/platforms/ios/www/dist && NODE_ENV=production webpack --progress --verbose --display-error-details --config development/webpack/common.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "todo"
+  },
+  "license": "MIT",
+  "authors": [
+    "Andrey Keske"
+  ],
+  "devDependencies": {
+    "@types/selenium-webdriver": "^2.44.26",
+    "autoprefixer": "6.3.7",
+    "babel-core": "6.11.4",
+    "babel-eslint": "6.1.2",
+    "babel-loader": "6.2.4",
+    "babel-plugin-react-transform": "2.0.2",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-react-remove-prop-types": "^0.2.7",
+    "babel-plugin-transform-require-ignore": "0.0.2",
+    "babel-plugin-webpack-alias": "1.3.1",
+    "babel-polyfill": "6.9.1",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.11.1",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-register": "6.9.0",
+    "classnames": "2.2.5",
+    "css-loader": "0.23.1",
+    "eslint": "3.1.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "^1.10.3",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "5.2.2",
+    "exports-loader": "0.6.3",
+    "express": "4.14.0",
+    "express-async-wrap": "1.0.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "0.9.0",
+    "imports-loader": "0.6.5",
+    "merge": "1.2.0",
+    "morgan": "^1.7.0",
+    "path-chunk-webpack-plugin": "1.2.0",
+    "postcss-loader": "0.9.1",
+    "postcss-mixins": "^5.4.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-short": "^1.4.0",
+    "postcss-simple-vars": "^3.0.0",
+    "ramda": "^0.21.0",
+    "react-addons-create-fragment": "^15.3.0",
+    "react-bootstrap": "^0.30.1",
+    "react-dom": "15.2.1",
+    "react-helmet": "3.1.0",
+    "react-router": "^2.8.1",
+    "react-transform-hmr": "1.0.4",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "^2.1.0-beta.21",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-dev-server": "2.0.0-beta",
+    "webpack-hot-middleware": "2.12.1",
+    "webpack-merge": "0.14.0"
+  },
+  "dependencies": {
+    "asset-require-hook": "1.0.2",
+    "babel-preset-react-hmre": "1.1.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.2",
+    "react": "15.2.1"
+  }
+}
