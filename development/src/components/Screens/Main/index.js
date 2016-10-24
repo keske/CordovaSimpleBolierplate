@@ -1,6 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 
 // Styles
+require('./app.css');
 import s from './index.css';
 
 export default class Screen extends Component {

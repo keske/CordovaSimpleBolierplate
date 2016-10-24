@@ -20,7 +20,7 @@ const devUrl = getDevelopmentUrl();
 
 const common = {
   output: {
-    path: __dirname + '/../dist/',
+    path: __dirname + '../../production/platforms/ios/www/dist',
     publicPath: devUrl,
     filename: '[name].js',
     chunkFilename: '[name].chunk.js',
